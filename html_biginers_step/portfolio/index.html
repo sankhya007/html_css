@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolo</title>
+</head>
+<!-- this is going to be my portfolio -->
+<body>
+    <!-- <p>hello world,my name is Sankhyapriyo dey</p> -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6> <hr>
+    <!-- there is going to be a line in between these becaude of the hr tag -->
+    <big>this tag shows big text</big> <br>
+    <small>this tag shows small text</small> <br> 
+    <p>H<sub>2</sub>O</p>
+    <b>bold tag</b> 
+    <i>italic tag</i>
+    <u>underline tag</u> 
+    <!-- we are going to use the din statement here it used in the code to state the same type of elements in a container and devide them from other elements -->
+    <div>
+        <p>hello world</p> 
+        <p>good morning </p> 
+        <p>namaste</p> 
+    </div> <br>
+    <!-- just for clarification div is more line a dabba :) it litrally contains whatever the fuck you write-->
+    <div>
+        <p>bye world </p> 
+        <p>good bye </p> 
+        <p> goodbye tata bye bye </p> 
+    </div>
+    <!-- we aer going to use the span and div to see the division between the normal and inline elements-->
+    <div><p>bye</p></div> 
+    <p>this is the normal or, divition element</p> <br>
+    <span>bye</span>
+    <p>this is the span element</p>
+    <p>this gong to be a paragraph tag in my html code which i'm going to change in the future use </p> 
+    <img src="citylights.png" alt="random image" width="400"><br>
+    <img src="https://www.solo.in/image/cache/Web%20upload%201500px%20Courier/NA554/MIX/1-1000x1000.jpg" alt="notebook" height="400"><br>
+    <a href="https://www.google.com">google opens in the same tab</a><br>
+    <a href="https://www.google.com" target="_main">google opens a new tab for the exp</a> <br>
+    <a href="https://www.google.com"> <img src="/portfolio/interior/google_logo.png" alt="open google search" height="100" ></a> <br>
+    <a href="/portfolio/interior/experience.html">experience</a><br>
+    <a href="/portfolio/interior/education.html">education</a> <br>
+    <a href="/portfolio/interior/projects.html">projrcts</a>
+    <!-- this is going to be the bullet mark list -->
+    <ul>
+        <li>apple</li>
+        <li>mango</li>
+        <li>lichi</li>
+    </ul>
+    <!--this is going to be the numbered list-->
+    <ol>
+        <li>apple</li>
+        <li>mango</li>
+        <li>lichi</li>
+    </ol>
+    <!-- you can make multiple rows of ol and ul themselves in the ul or ol tag  -->
+    <ul>
+        <li>mango</li>
+        <ul>
+            <li>season:summer</li>
+            <li>colour:yellow</li>
+        </ul>
+        <li> apple</li>
+        <ul>
+            <li>season:winter</li>
+            <li>colour:red</li>
+        </ul>
+    </ul>
+    <!-- you can also use both ul ane ol tags in the same div-->
+    <ol>
+        <li>mango</li>
+        <ul>
+            <li>season:summer</li>
+            <li>colour:yellow</li>
+        </ul>
+        <li> apple</li>
+        <ul>
+            <li>season:winter</li>
+            <li>colour:red</li>
+        </ul>
+    </ol>
+    <!-- using the iframe tag -->
+    <iframe src="https://www.wikipedia.org/" height="700" width=" 900"></iframe> <br> <br>
+    <!-- using the iframe tag to pina yt video in the page-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <table>
+        <caption> information</caption>
+        <tr>
+            <th>name</th>
+            <th>year</th>
+            <th>roll</th>
+            <th>section</th>
+        </tr>
+        <tr>
+            <td>sankhya</td>
+            <td>2nd</td>
+            <td>144</td>
+            <td>cse b</td>
+        </tr>
+        <tr>
+            <td>swastik</td>
+            <td>2nd</td>
+            <td>145</td>
+            <td>cse b</td>
+        </tr>
+    </table>
+    <table>
+        <!-- when we use the colspan attribute it is going to be in the th tag because it is covering up a row and we are using it as a heading data -->
+        <th colspan="4">
+           class information
+        </th>
+        <tr>
+            <td>sankhya</td>
+            <td>2nd</td>
+            <td>144</td>
+            <td>cse b</td>
+        </tr>
+        <tr>
+            <td>swastik</td>
+            <td>2nd</td>
+            <td>145</td>
+            <td>cse b</td>
+        </tr>
+    </table>
+    <!-- we are ment to use the form tag when we are writting down the code for login,help,contact me kinda pages-->
+    <form action="/portfolio/formaction.php"></form>
+    <!--the java script file we need to run thie programme-->
+    <!--input tag-->
+    <input type="text" placeholder="type anything here."> <br> <br>
+    <input type="password" placeholder="type password here.">
+    <!--is going to have bulletmarks when we type in the password because of the password value in the type attribute-->
+    <br><br>
+    <p>the whole text is going to work as a button</p>
+    <label for="101">
+        <input type="radio" value="class X" name="class" id="101">class X
+    </label> <br> <br>
+    <p>the only circle is going to work when we click</p>
+    <input type="radio" value="class X" name="class">class X <br><br>
+    <!--just because we have indication values or ids for each and every one of those so thats why we have to use the label tag multiple time-->
+    <p>select the subjects you like</p>
+    <label for="103">
+        <input type="checkbox" value="math" name="class" id="103">math <br>
+    </label>
+    <label for="104">
+        <input type="checkbox" value="phys" name="class" id="104">physics <br>
+    </label>
+    <label for="105">
+        <input type="checkbox" value="chem" name="class" id="105">chemistry <br>
+    </label>
+    <label for="106">
+        <input type="checkbox" value="elec" name="class" id="106">electrical <br>
+    </label>
+    <label for="107">
+        <input type="checkbox" value="coms" name="class" id="107">computer <br>
+    </label> <br> <br>
+    <p>select the city you are from </p>
+    <select name="state" id="state" >
+        <option value="">chose your state</option>
+        <option value="west bengal">west bengal</option>
+        <option value="chennai">chennai</option>
+        <option value="delhi">delhi</option>
+        <option value="tamilnadu">tamilnadu</option>
+        <option value="odissa">oddisa</option>
+    </select> <br><br>
+    <!--we need to get an feedback from an user-->
+    <textarea name="feedback" id="109" cols="30" rows="7"></textarea><br><br>
+    <input type="submit" value="submit"><br><br>
+    <video src="/portfolio/interior/bella.mp4" height="315" width="560" controls loop>im natural by bella</video>
+</body>
+</html> 

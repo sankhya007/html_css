@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 60px;
+    background-color: black;
+}
+button{
+    background-color: #f08804;
+    color: white;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+#hello{
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-right: 200px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+#div1,#div2,#div3{
+    height: 100px;
+    width: 100px;
+    border-style: dashed;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#div1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#div2{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+#div3{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#content{
+    height: 900px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 45px;
+    padding: 5px;
+}
